@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" >
+
+    <script src="https://kit.fontawesome.com/fade77b74b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" style="color: white; right: 20px; top: 20px; z-index: 1000;"><span class="navbar-toggler-icon"></span>
+    </button> -->
+    <!-- Offcanvas -->
+    <div class="nav-offcanvas d-lg-none">
+        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" aria-controls="offcanvas-nav">
+            <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+
+        <div class="offcanvas offcanvas-top bg-dark" tabindex="-1" id="offcanvas-nav" aria-labelledby="offcanvas-navLabel" style="height: 50vh;">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset d-sm-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex">
+                <ul class="nav-links">
+                    <li class="nav-link rounded-pill d-flex align-items-start">
+                        <a href="#landing" class="link text-white">Home</a>
+                    </li>
+                    <li class="nav-link rounded-pill d-flex align-items-start">
+                        <a href="#about" class="link text-white">About Me</a>
+                    </li>
+                    <li class="nav-link rounded-pill d-flex align-items-start">
+                        <a href="#resume" class="link text-white">Resume</a>
+                    </li>
+                    <li class="nav-link rounded-pill d-flex align-items-start">
+                        <a href="#portfolio" class="link text-white">Portfolio</a>
+                    </li>
+                    <li class="nav-link rounded-pill d-flex align-items-start">
+                        <a href="#testimonials" class="link text-white">Testimonial</a>
+                    </li>
+                    <li class="nav-link rounded-pill d-flex align-items-start">
+                        <a href="#contact" class="link text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="img d-flex justify-content-center mt-5">
+            <img src="/Sindile (2).JPG" alt="" class="img-fluid rounded-circle border" style="width: 180px; height: 180px;">
+        </div>
+        <h5 class="text-white text-center mt-2">Sindile Kula</h5>
+        
+        <nav class="navbar navbar-expand-lg d-none d-lg-flex navbar-light mt-5">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="nav-links">
+                    <ul class="navbar-nav d-flex flex-column align-items-center text-center mx-5">
+                        <li class="nav-link"><a href="#landing" class="text-light">Home</a>
+                        </li>
+                        <li class="nav-link"><a href="#about" class="text-white text-outline-danger">About Me</a>
+                        </li>
+                        <li class="nav-link"><a href="#resume" class="text-white">Resume</a>
+                        </li>
+                        <li class="nav-link"><a href="#portfolio" class="text-white">Portfolio</a>
+                        </li>
+                        <li class="nav-link"><a href="#testimonials" class="text-white">Testimonials</a>
+                        </li>
+                        <li class="nav-link"><a href="#contact" class="text-white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <button>Navigation button</button> -->
+        </nav>
+        <div class="icons text-center mt-5 pt-5">
+            <i class="fa-brands fa-github text-light"></i>
+            <i class="fa-brands fa-linkedin text-light ms-3"></i>
+            <i class="fa-brands fa-codepen text-light ms-3"></i>
+            <i class="fa-brands fa-google text-light ms-3"></i>
+        </div>
+        
+    </div>
+
+    
+    <section id="landing">
+        <div class="container px-5 d-flex align-items-center justify-content-center min-vh-100">
+            <div class="title text-white text-center">
+                <h1 class="ms-5">WELCOME</h1>
+                <p class="name">I am <span class="text-danger">Sindile Kula</span></p>
+                <p class="text-muted my-3 shadow bg-white">based in Cape Town</p>
+                <a href="#contact">
+                    <button type="button" class="btn btn-lg btn-outline-danger rounded-pill mt-3">Hire Me</button>git
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="">
+        <div class="container mb-5 px-5">
+            <div class="row" style="height: 100%;">
+                <!-- <h1 class="text-muted d-flex justify-content-center mt-5">About Me</h1> -->
+                <h2 class="d-flex justify-content-center mt-5 text-white">Know me more</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mt-5">
+                    <h3 class="text-white">I am <span class="text-danger">Sindile Kula,</span> a aspiring web developer.</h3>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, sequi quasi eaque cupiditate veniam harum. Sit fugit adipisci, blanditiis a odit magni voluptatibus beatae cupiditate qui voluptate sunt tempora maiores!</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis error reprehenderit quod facere voluptatem exercitationem, dolor amet quae veritatis vel ipsam eaque labore, suscipit, quisquam ut totam. Sed, tempora sunt.</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe facilis possimus ipsum maiores error quam ea, quas, cum quidem quibusdam quia nihil dolores molestiae corrupti eos, officiis unde culpa. Sapiente!</p>
+                    <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, totam provident. Porro aliquid eligendi iusto provident quas. Fuga sapiente nam harum ex veritatis eveniet minima voluptates, natus expedita voluptate ullam.</p>
+                </div>
+                <div class="col-lg-4 mt-5">
+                    <div class="details text-light">
+                        <p class="text-light"><span class="fw-bold">Name:</span><span class="ms-3">Sindile Kula</span></p>
+                        <p class="text-light"><span class="fw-bold">Email:</span><span class="ms-3">Kulasindile@gmail.com</span></p>
+                        <p class="text-light"><span class="fw-bold">Age:</span><span class="ms-3">23</span></p>
+                        <p class="text-light"><span class="fw-bold">From:</span><span class="ms-3">Cape Town, Gugulethu</span></p>
+                    </div>
+
+                    <div class="button my-4">
+                        <a href="/CV_2021-12-16-034328.pdf" download="">
+                            <button type="button" class="btn btn-lg btn-danger rounded-pill mt-3">Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <section id="resume">
+        <div class="container mb-5 px-5">
+            <div class="row">
+                <h2 class="d-flex justify-content-center mt-5 p-5 text-white pb-2">Resume</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="heading text-white">
+                        <h4>My Education</h4>
+                    </div>
+                    <div class="bg-dark rounded p-4 my-4">
+                        <p class="bg-danger fw-400 text-white px-2" style="width: fit-content">2012 - 2016</p>
+                        <h3 class="text-white">Technical Studies</h3>
+                        <p class="text-danger">Intshukumo Secondary School</p>
+                        <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet earum delectus architecto aliquam aliquid tenetur blanditiis ipsam atque.</p>
+                    </div>
+                    <div class="bg-dark rounded p-4 mb-4">
+                        <p class="bg-danger fw-400 text-white px-2" style="width: fit-content">2017 - 2022</p>
+                        <h3 class="text-white">Electrical Engineering</h3>
+                        <p class="text-danger">Cape Peninsula University of Technology</p>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum accusamus fugiat at quaerat accusantium a natus reiciendis nesciunt?</p>
+                    </div>
+                    <div class="bg-dark rounded p-4 mb-4">
+                        <p class="bg-danger fw-400 text-white px-2" style="width: fit-content">2022 - current</p>
+                        <h3 class="text-white">Web Development</h3>
+                        <p class="text-danger">Life Choices Coding Academy</p>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis nostrum tempora minima expedita unde. Provident obcaecati suscipit vero.</p>
+                    
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="heading text-white">
+                        <h4>My Experience</h4>
+                        
+                    </div>
+                    <div class="bg-dark rounded p-4 my-4">
+                        <p class="bg-danger fw-400 text-white px-2" style="width: fit-content">2020 - 2021</p>
+                        <h3 class="text-white">Entreprenuer</h3>
+                        <p class="text-danger">China Movers and Shakers</p>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis, corporis et magnam blanditiis ducimus sequi repudiandae omnis.</p>
+                    </div>
+                    <div class="bg-dark rounded p-4 mb-4">
+                        <p class="bg-danger fw-400 text-white px-2" style="width: fit-content;">2021 - 2022</p>
+                        <h3 class="text-white">Packer & Machandiser</h3>
+                        <p class="text-danger">Pick'n'Pay</p>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis, corporis et magnam blanditiis ducimus sequi repudiandae omnis.</p>
+                    
+                    </div>
+                    <div class="bg-dark rounded p-4 mb-4">
+                        <p class="bg-danger fw-400 text-white px-2" style="width: fit-content;">2021 - current</p>
+                        <h3 class="text-white">Sales</h3>
+                        <p class="text-danger">Self-employed</p>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis, corporis et magnam blanditiis ducimus sequi repudiandae omnis.</p>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <h4 class="text-white">My Skills</h4>
+                <div class="col-lg-6">
+                    <div class="languages d-flex">
+                        <p class="text-light mt-3">HTML</p>
+                        <p class="text-light mt-3">90%</p>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="languages d-flex">
+                        <p class="text-light mt-3">CSS</p>
+                        <p class="text-light mt-3">80%</p>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="languages d-flex">
+                        <p class="text-light mt-3">Web Design</p>
+                        <p class="text-light mt-3">60%</p>
+                    </div>
+                    <div class="progress mb-5" style="height: 10px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="languages d-flex">
+                        <p class="text-light mt-3">Bootstrap</p>
+                        <p class="text-light mt-3">95%</p>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="languages d-flex">
+                        <p class="text-light mt-3">Javascript</p>
+                        <p class="text-light mt-3">30%</p>
+                    </div>
+                    <div class="progress" style="height: 10px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="languages d-flex">
+                        <p class="text-light mt-3">Photoshop</p>
+                        <p class="text-light mt-3">60%</p>
+                    </div>
+                    <div class="progress mb-5" style="height: 10px;">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+                <div class="mb-4 text-center">
+                    <a href="/CV_2021-12-16-034328.pdf" download="">
+                        <button type="button" class="btn btn-outline-secondary btn-lg rounded-pill">Download CV <i class="fa-solid fa-download"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container px-5">
+            <div class="row">
+                <h2 class="d-flex justify-content-center text-white mt-5">My Work</h2>
+                <div class="links d-flex flex-row justify-content-center mt-5">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link active text-danger" aria-current="page" href="#">All</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Design</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Brand</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Photos</a>
+                        </li>
+                      </ul>
+                </div>
+                <div class="project-container my-5">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="project my-5">
+                                <img data-bs-toggle="modal" data-bs-target="#Holiday-destination" src="/holiday destination.PNG" style="width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project my-5">
+                                <img data-bs-toggle="modal" data-bs-target="#Calculator" src="/calculator.PNG" style="width: 100%;">
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="project my-5">
+                                <img data-bs-toggle="modal" data-bs-target="#Personal-portfolio" src="/portfolio.PNG" style="width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- MODAL -->
+                <!-- project1 modal -->
+                <div class="modal fade" id="Calculator" tabindex="-1" aria-labelledby="Calculator" aria-hidden="true">
+                    <div class="modal-dialog mw-100">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="Calculator">Calculator</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                            <div class="col-md-6">
+                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Calculator" src="/calculator.PNG" style="width: 100%">
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Project Info</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p>
+                                <h3>Project Details</h3>
+                                <p><span class="fw-bold">Client:</span>Life Choices</p>
+                                <p><span class="fw-bold">Industry:</span>Web Development</p>
+                                <p><span class="fw-bold">Technologies:</span>HTML & CSS</p>
+                                <p><span class="fw-bold">Date:</span>13 April 2022</p>
+                                <p><span class="fw-bold">URL:</span>https://melodic-gnome-6acfcd.netlify.app</p></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Holiday-destination" tabindex="-1" aria-labelledby="Holiday-destination" aria-hidden="true">
+                    <div class="modal-dialog mw-100">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="Holiday-destination">Holiday Destination</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                            <div class="col-md-6">
+                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Holiday-destination" src="/holiday destination.PNG" style="width: 100%">
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Project Info</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p>
+                                <h3>Project Details</h3>
+                                <p><span class="fw-bold">Client:</span>Life Choices</p>
+                                <p><span class="fw-bold">Industry:</span>Web Development</p>
+                                <p><span class="fw-bold">Technologies:</span>HTML & CSS</p>
+                                <p><span class="fw-bold">Date:</span>13 April 2022</p>
+                                <p><span class="fw-bold">URL:</span>https://deluxe-sable-821724.netlify.app</p></div></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="Personal-portfolio" tabindex="-1" aria-labelledby="Personal-portfolio" aria-hidden="true">
+                    <div class="modal-dialog mw-100">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="Personal-portfolio">Personal Portfolio</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                            <div class="col-md-6">
+                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Personal-portfolio" src="/portfolio.PNG" style="width: 100%">
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Project Info</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nulla? Vel itaque delectus fugiat quo aliquid pariatur ut, magnam, quis obcaecati velit aspernatur est, dolorem sunt voluptatem nihil nesciunt. Vero?</p>
+                                <h3>Project Details</h2>
+                                <p><span class="fw-bold">Client:</span>Life Choices</p>
+                                <p><span class="fw-bold">Industry:</span>Web Development</p>
+                                <p><span class="fw-bold">Technologies:</span>HTML & CSS</p>
+                                <p><span class="fw-bold">Date:</span>13 April 2022</p>
+                                <p><span class="fw-bold">URL:</span>https://spontaneous-churros-8cd92c.netlify.app</p></div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!-- <div class="col-sm-6 col-lg-4 p-3">
+                    <img class="img-fluid block" src="/code-4333398_1920.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-lg-4 p-3">
+                    <img class="img-fluid block" src="/hacker-3480124_1920.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-lg-4 p-3">
+                    <img class="img-fluid block" src="/software-development-6523979_1920.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-lg-4 p-3">
+                    <img class="img-fluid block" src="/web-design-2906159_1920.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-lg-4 p-3">
+                    <img class="img-fluid block" src="/bee-7143690_1920.jpg" alt="">
+                </div>
+                <div class="col-sm-6 col-lg-4 p-3">
+                    <img class="img-fluid block" src="/bar-826688_1920.jpg" alt="">
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <div class="container mb-5 px-5">
+            <div class="row">
+                <h2 class="d-flex justify-content-center mt-5 text-white">Clients speak</h2>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="bg-dark p-5 mt-5">
+                                <div class="details d-flex flex-row">
+                                    <img src="/Sindile (2).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <div class="info d-flex flex-column ms-3">
+                                        <p class="text-white">Name</p>
+                                        <p class="text-muted">From Life Choices Academy</p>
+                                    </div>
+                                </div>
+                                <p class="text-white mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim modi ipsum natus ipsa blanditiis assumenda aliquid quas asperiores. Doloribus inventore non quidem voluptate adipisci nihil error praesentium placeat ipsam!</p>
+                                <div class="ratings text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="bg-dark p-5 my-5">
+                                <div class="details d-flex flex-row">
+                                    <img src="/Sindile (2).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <div class="info d-flex flex-column ms-3">
+                                        <p class="text-white">Name</p>
+                                        <p class="text-muted">From Life Choices Academy</p>
+                                    </div>
+                                </div>
+                                <p class="text-white mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim modi ipsum natus ipsa blanditiis assumenda aliquid quas asperiores. Doloribus inventore non quidem voluptate adipisci nihil error praesentium placeat ipsam!</p>
+                                <div class="ratings text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="bg-dark p-5 mt-5">
+                                <div class="details d-flex flex-row">
+                                    <img src="/Sindile (2).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <div class="info d-flex flex-column ms-3">
+                                        <p class="text-white">Name</p>
+                                        <p class="text-muted">From Life Choices Academy</p>
+                                    </div>
+                                </div>
+                                <p class="text-white mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim modi ipsum natus ipsa blanditiis assumenda aliquid quas asperiores. Doloribus inventore non quidem voluptate adipisci nihil error praesentium placeat ipsam!</p>
+                                <div class="ratings text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="bg-dark p-5 my-5">
+                                <div class="details d-flex flex-row">
+                                    <img src="/Sindile (2).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <div class="info d-flex flex-column ms-3">
+                                        <p class="text-white">Name</p>
+                                        <p class="text-muted">From Life Choices Academy</p>
+                                    </div>
+                                </div>
+                                <p class="text-white mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim modi ipsum natus ipsa blanditiis assumenda aliquid quas asperiores. Doloribus inventore non quidem voluptate adipisci nihil error praesentium placeat ipsam!</p>
+                                <div class="ratings text-warning">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container px-5">
+            <div class="row" style="height: 100%;">
+                <h2 class="d-flex justify-content-center mt-5 text-white">Get in touch</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 my-2">
+                    <h4 class="text-white my-4">ADDRESS</h4>
+                    <div class="row text-light mt-4">
+                        <p>206 Ny21</p>
+                        <p>Gugulethu</p>
+                        <p>7750</p>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="phone d-flex flex-row">
+                            <div class="icon text-danger">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <p class="text-light ms-3">(084) 384 2221</p>
+                        </div>
+                        <div class="mobile d-flex flex-row">
+                            <div class="icon text-danger">
+                                <i class="fa-solid fa-mobile"></i>
+                            </div>
+                            <p class="text-light ms-3">(084) 384 2221</p>
+                        </div>
+                        <div class="email d-flex flex-row">
+                            <div class="icon text-danger">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <p class="text-light ms-3">Kulasindile@gmail.com</p>
+                        </div> 
+                    </div>
+                    <div class="row mt-4">
+                        <h4 class="text-white">FOLLOW ME</h4>
+                        <div class="icons text-light mt-3">
+                            <a target="_blank" href="https://github.com/sindilekula"><i class="fa-brands fa-github text-light"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/sindile-kula-2b777a238/"><i class="fa-brands fa-linkedin text-light ms-3"></i></a>
+                            <a target="_blank" href="https://codepen.io/sindilekula"><i class="fa-brands fa-codepen text-light ms-3"></i></a>
+                            <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i class="fa-brands fa-google text-light ms-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h4 class="text-white my-4">SEND US A NOTE</h4>
+                    <div class="row mt-4">
+                        <div class="col-lg-6 my-3">
+                           <input type="text" name="name" class="form-control bg-dark" id="name" placeholder="Name" style="height: 50px;"> 
+                        </div>
+                        <div class="col-lg-6 my-3">
+                            <input type="email" name="email" class="form-control bg-dark" id="email" placeholder="Email" style="height: 50px;">
+                        </div>
+                        <div class="mt-4">
+                            <textarea id="message" class="form-control bg-dark" placeholder="Tell us more about your needs...." style="height: 200px;"></textarea>
+                        </div>
+                        <div class="my-4 text-center">
+                            <button type="submit" class="btn btn-lg btn-danger rounded-pill">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer" style="height: 200px;">
+        <div class="container px-5">
+            <div class="row">
+                <div class="content">
+                    <div class="Copyright">
+                        <p class="text-white mt-5 pt-5">Copyright © 2022 <span class="text-danger">Sindile</span>. All rights reserved.</p>
+                    </div>
+                    <div class="terms d-flex">
+                        <p class="text-white mt-5 pt-5">Terms and policy</p>
+                        <p class="text-white mt-5 pt-5 ms-5">Disclaimer</p>
+                    </div>
+                </div>
+              
+              
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>  
+</body>
+</html>
