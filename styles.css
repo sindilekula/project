@@ -13,6 +13,34 @@ body{
     font-family: Poppins, sans-serif;
 }
 
+.project {
+    position: relative;
+  }
+  
+  .project-details {
+    background: linear-gradient(
+      to top,
+      rgba(28, 25, 25, 0.7) 0%,
+      rgba(32, 30, 30, 0) 100%
+    );
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    opacity: 0;
+    transition: all 0.3s linear;
+  }
+  
+  .project:hover .project-details {
+    opacity: 1;
+  }
+
 .offcanvas-body {
     display: flex;
     flex-direction: column;
@@ -30,6 +58,11 @@ ul {
 a {
     text-decoration: none;
 }
+
+li.nav-link a:hover {
+    background-color: red;
+}
+
 h1 {
     font-family: Poppins, sans-serif;
     font-size: 50px;
@@ -130,6 +163,16 @@ body {
     background-color: #212529 !important;
 }
 
+.card {
+    height: 50vh;
+    object-fit: cover;
+}
+
+.card img {
+    object-fit: cover;
+    width: fit-content;
+}
+
 #testimonials{
     background-color: #4c4d4d !important;
 }
@@ -184,5 +227,9 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 0;
+    }
+
+    .bg-dark .rounded {
+        height: fit-content;
     }
 }
