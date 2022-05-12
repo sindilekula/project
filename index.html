@@ -15,7 +15,7 @@
     <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" style="color: white; right: 20px; top: 20px; z-index: 1000;"><span class="navbar-toggler-icon"></span>
     </button> -->
     <!-- Offcanvas -->
-    <div class="nav-offcanvas d-lg-none bg-dark">
+    <div class="nav-offcanvas d-lg-none bg-dark fixed-top" style="z-index: 100;">
         <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" aria-controls="offcanvas-nav">
             <span><i class="fa-solid fa-bars text-light"></i></span>
         </button>
@@ -24,8 +24,8 @@
             <div class="offcanvas-header">
                 <button type="button" class="btn-close text-reset d-sm-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body d-flex">
-                <ul class="nav-links">
+            <div class="offcanvas-body d-flex fixed-top" style="z-index: 100;">
+                <ul class="nav-links mt-5">
                     <li class="nav-link rounded-pill d-flex align-items-start">
                         <a href="#landing" class="link text-white">Home</a>
                     </li>
@@ -50,7 +50,7 @@
     </div>
     <div class="sidebar">
         <div class="img d-flex justify-content-center mt-5">
-            <img src="/Sindile (2).JPG" alt="" class="img-fluid rounded-circle border" style="width: 180px; height: 180px;">
+            <img src="/Sindile (2).JPG" alt="" class="img-fluid rounded-circle border" style="width: 180px; height: 180px; object-fit: cover;">
         </div>
         <h5 class="text-white text-center mt-2">Sindile Kula</h5>
         
@@ -98,7 +98,7 @@
         </div>
     </section>
     <section id="about" class="">
-        <div class="container mb-5 px-5">
+        <div class="container px-5">
             <div class="row" style="height: 100%;">
                 <!-- <h1 class="text-muted d-flex justify-content-center mt-5">About Me</h1> -->
                 <h2 class="d-flex justify-content-center mt-5 text-white">Know me more</h2>
@@ -129,7 +129,7 @@
        
     </section>
     <section id="resume">
-        <div class="container mb-5 px-5">
+        <div class="container px-5">
             <div class="row">
                 <h2 class="d-flex justify-content-center mt-5 p-5 text-white pb-2">Resume</h2>
             </div>
@@ -431,7 +431,7 @@
         </div>
     </section>
     <section id="testimonials">
-        <div class="container mb-5 px-5">
+        <div class="container px-5">
             <div class="row">
                 <h2 class="d-flex justify-content-center mt-5 text-white">Clients speak</h2>
             </div>
@@ -440,41 +440,46 @@
                   <div class="carousel-item active">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="bg-dark p-5 mt-5" style="height: 50vh;">
+                            <div class="bg-dark p-5 mt-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Lihle (1).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <img src="/Lihle (1).JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 100px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Lihle Goliath</p>
                                         <p class="text-muted">From Life Choices Academy</p>
                                     </div>
                                 </div>
-                                <p class="text-white mt-5">Kula Sindile, an individual who is dedicated and motivated to attain his objectives at whatever costs. He is dependable and works well with others.</p>
-                                <div class="ratings text-warning">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                <div class="reviews">
+                                    <p class="text-white mt-5">Kula Sindile, an individual who is dedicated and motivated to attain his objectives at whatever costs. He is dependable and works well with others.</p>
                                 </div>
+                                    <div class="ratings text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="bg-dark p-5 my-5" style="height: 50vh;">
+                            <div class="bg-dark p-5 my-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Sindile (2).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <img src="/Sindile (2).JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 100px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Le-Andre</p>
                                         <p class="text-muted">From Life Choices Academy</p>
                                     </div>
                                 </div>
-                                <p class="text-white mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim modi ipsum natus ipsa blanditiis assumenda aliquid quas asperiores. Doloribus invento</p>
-                                <div class="ratings text-warning">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                <div class="reviews">
+                                    <p class="text-white mt-5">Sindile is the sort of person that is always striving to better and be the greatest version of himself. In the workplace, his gentle and open-minded personality makes him a pleasure to be around.</p>
                                 </div>
+                                    <div class="ratings text-warning">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -482,15 +487,17 @@
                   <div class="carousel-item">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="bg-dark p-5 mt-5" style="height: 50vh;">
+                            <div class="bg-dark p-5 mt-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Raaid (3).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <img src="/Raaid (3).JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 100px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Raaid Abdullatief</p>
                                         <p class="text-muted">From Life Choices Academy</p>
                                     </div>
                                 </div>
-                                <p class="text-white mt-5">Sindile Kula, His dedication to his profession is absolutely extraordinary. He is a pleasure to deal with and constantly prioritizes his clients.</p>
+                                <div class="reviews">
+                                    <p class="text-white mt-5">Sindile Kula, His dedication to his profession is absolutely extraordinary. He is a pleasure to deal with and constantly prioritizes his clients.</p>
+                                </div>
                                 <div class="ratings text-warning mb-2">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -498,25 +505,29 @@
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                 </div>
+                                
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="bg-dark p-5 my-5" style="height: 50vh;">
+                            <div class="bg-dark p-5 my-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Siyolise (1).JPG" class="img-fluid rounded-circle" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
+                                    <img src="/Siyolise (1).JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 100px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Siyolise Mekuto</p>
                                         <p class="text-muted">From Life Choices Academy</p>
                                     </div>
                                 </div>
-                                <p class="text-white mt-5 mb-2">Sindile Kula is a determined individual. He goes above and above to assist people and is a pleasure to be around.</p>
-                                <div class="ratings text-warning mt-5 mb-3">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                                <div class="reviews">
+                                    <p class="text-white mt-5 mb-2">Sindile Kula is a determined individual. He goes above and above to assist people and is a pleasure to be around.</p>
                                 </div>
+                                    <div class="ratings text-warning mt-5 mb-3">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+                                
                             </div>
                         </div>
                     </div>
