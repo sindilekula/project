@@ -20,8 +20,8 @@ body{
   .project-details {
     background: linear-gradient(
       to top,
-      rgba(69, 235, 224, 0.7) 0%,
-      rgba(206, 223, 206, 0) 100%
+      rgb(0, 0, 0) 0%,
+      rgba(0, 0, 0, 0) 100%
     );
     color: white;
     position: absolute;
@@ -48,6 +48,13 @@ body{
     align-items: flex-start;
     justify-content: space-around;
     width: 100%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
 ul {
@@ -79,7 +86,6 @@ h1 {
 h2{
     font-weight: 600;
     font: 36px;
-    /* text-decoration: underline red; */
     border-bottom: 3px solid red;
     width: fit-content;
 }
@@ -113,7 +119,6 @@ h3{
 
 section{
     margin-left: 250px;
-    /* position: absolute; */
     min-height: 100vh;
     position: relative;
 }
@@ -246,14 +251,4 @@ body {
     #landing {
         width: fit-content;
     }
-}
-
-@media screen and (max-width: 768px){
-    /* .bg-dark .rounded {
-        height: 100vh;
-    }
-
-    .reviews {
-        height: 100vh;
-    } */
 }
