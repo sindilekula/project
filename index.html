@@ -12,17 +12,17 @@
     <script src="https://kit.fontawesome.com/fade77b74b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" style="color: white; right: 20px; top: 20px; z-index: 1000;"><span class="navbar-toggler-icon"></span>
-    </button> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" style="color: white; right: 20px; top: 20px; z-index: 1000;"><span class="navbar-toggler-icon"></span>
+    </button>
     <!-- Offcanvas -->
-    <div class="nav-offcanvas d-lg-none bg-dark fixed-top" style="z-index: 100;">
+    <div class="nav-offcanvas d-lg-none bg-dark fixed-top" style="z-index: 100; width: 100vw;">
         <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" aria-controls="offcanvas-nav">
             <span><i class="fa-solid fa-bars text-light"></i></span>
         </button>
 
         <div class="offcanvas offcanvas-top bg-dark" tabindex="-1" id="offcanvas-nav" aria-labelledby="offcanvas-navLabel" style="height: 50vh;">
             <div class="offcanvas-header">
-                <button type="button" class="btn-close text-reset d-sm-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="btn-close text-reset text-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body d-flex fixed-top" style="z-index: 100;">
                 <ul class="nav-links mt-5">
@@ -50,7 +50,7 @@
     </div>
     <div class="sidebar">
         <div class="img d-flex justify-content-center mt-5">
-            <img src="/Sindile (2).JPG" alt="" class="img-fluid rounded-circle border" style="width: 180px; height: 180px; object-fit: cover;">
+            <img src="/images/Sindile (2).JPG" alt="" class="img-fluid rounded-circle border" style="width: 180px; height: 180px; object-fit: cover;">
         </div>
         <h5 class="text-white text-center mt-2">Sindile Kula</h5>
         
@@ -92,7 +92,7 @@
                 <p class="name">I am <span class="text-danger">Sindile Kula</span></p>
                 <p class="text-muted my-3 shadow bg-white">based in Cape Town</p>
                 <a href="#contact">
-                    <button type="button" class="btn btn-lg btn-outline-danger rounded-pill mt-3">Hire Me</button>
+                    <button type="button" class="btn btn-lg btn-outline-danger btn-light rounded-pill mt-3">Hire Me</button>
                 </a>
             </div>
         </div>
@@ -120,7 +120,7 @@
 
                     <div class="button my-4">
                         <a href="/CV_2021-12-16-034328.pdf" download="">
-                            <button type="button" class="btn btn-lg btn-danger rounded-pill mt-3">Download CV</button>
+                            <button type="button" class="btn btn-lg btn-danger btn-outline-secondary rounded-pill mt-3">Download CV</button>
                         </a>
                     </div>
                 </div>
@@ -266,34 +266,43 @@
                         <div class="col-lg-4">
                             <div class="project my-5">
                                 <div data-aos="zoom-in-up" class="card">
-                                    <img src="/perfect holiday destination.PNG" style="width: 100%; height: 50vh;">
+                                    <img src="/images/perfect holiday destination.PNG" style="width: 100%; height: 50vh;">
                                 </div>
                                 
                                 <div class="project-details" data-bs-toggle="modal" data-bs-target="#Holiday-destination" >
                                     <p class="text-light">Holiday Destination</p>
                                     <p class="text-light">Web Development</p>
+                                    <a href="#Holiday-destination">
+                                        <button type="button" class="btn btn-outline-danger rounded-pill mt-3">Click for modal</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="project my-5">
                                 <div data-aos="zoom-in-up" class="card">
-                                    <img src="/calculator.PNG" style="width: 100%; height: 50vh;">
+                                    <img src="/images/calculator.PNG" style="width: 100%; height: 50vh;">
                                 </div>
                                 <div class="project-details" data-bs-toggle="modal" data-bs-target="#Calculator">
                                     <p class="text-light">Calculator</p>
                                     <p class="text-light">Web Development</p>
+                                    <a href="#Calculator">
+                                        <button type="button" class="btn btn-outline-danger rounded-pill mt-3">Click for modal</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="project my-5">
                                 <div data-aos="zoom-in-up" class="card">
-                                    <img src="/portfolio.PNG" style="width: 100%; height: 50vh;">
+                                    <img src="/images/portfolio.PNG" style="width: 100%; height: 50vh;">
                                 </div>
                                 <div class="project-details" data-bs-toggle="modal" data-bs-target="#Personal-portfolio">
                                     <p class="text-light">Portfolio</p>
                                     <p class="text-light">Web Development</p>
+                                    <a href="#Personal-portfolio">
+                                        <button type="button" class="btn btn-outline-danger rounded-pill mt-3">Click for modal</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -313,7 +322,7 @@
                         <div class="container">
                             <div class="row">
                             <div class="col-md-6">
-                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Calculator" src="/calculator.PNG" style="width: 100%">
+                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Calculator" src="/images/calculator.PNG" style="width: 100%">
                             </div>
                             <div class="col-md-4">
                                 <h3>Project Info</h3>
@@ -349,7 +358,7 @@
                         <div class="container">
                             <div class="row">
                             <div class="col-md-6">
-                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Holiday-destination" src="/holiday destination.PNG" style="width: 100%">
+                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Holiday-destination" src="/images/perfect holiday destination.PNG" style="width: 100%">
                             </div>
                             <div class="col-md-4">
                                 <h3>Project Info</h3>
@@ -367,8 +376,6 @@
                                 <a class="text-dark" target="_blank" href="https://github.com/sindilekula/main"><i class="fa-brands fa-github ms-3 text-danger"></i>Github</a>
                                 <a class="text-dark" target="_blank" href="https://deluxe-sable-821724.netlify.app"><i class="fa-solid fa-eye ms-3 text-danger"></i>Live</a>
                             </div>
-                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button> -->
                         </div>
                     </div>
                     </div>
@@ -384,7 +391,7 @@
                         <div class="container">
                             <div class="row">
                             <div class="col-md-6">
-                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Personal-portfolio" src="/portfolio.PNG" style="width: 100%">
+                                <img class="fluid" data-bs-toggle="modal" data-bs-target="#Personal-portfolio" src="/images/portfolio.PNG" style="width: 100%">
                             </div>
                             <div class="col-md-4">
                                 <h3>Project Info</h3>
@@ -403,30 +410,10 @@
                                 <a class="text-dark" target="_blank" href="https://github.com/sindilekula/mock-portfolio"><i class="fa-brands fa-github ms-3 text-danger"></i>Github</a>
                                 <a class="text-dark" target="_blank" href="https://spontaneous-churros-8cd92c.netlify.app"><i class="fa-solid fa-eye ms-3 text-danger"></i>Live</a>
                             </div>
-                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button> -->
                         </div>
                     </div>
                     </div>
                 </div>
-                <!-- <div class="col-sm-6 col-lg-4 p-3">
-                    <img class="img-fluid block" src="/code-4333398_1920.jpg" alt="">
-                </div>
-                <div class="col-sm-6 col-lg-4 p-3">
-                    <img class="img-fluid block" src="/hacker-3480124_1920.jpg" alt="">
-                </div>
-                <div class="col-sm-6 col-lg-4 p-3">
-                    <img class="img-fluid block" src="/software-development-6523979_1920.jpg" alt="">
-                </div>
-                <div class="col-sm-6 col-lg-4 p-3">
-                    <img class="img-fluid block" src="/web-design-2906159_1920.jpg" alt="">
-                </div>
-                <div class="col-sm-6 col-lg-4 p-3">
-                    <img class="img-fluid block" src="/bee-7143690_1920.jpg" alt="">
-                </div>
-                <div class="col-sm-6 col-lg-4 p-3">
-                    <img class="img-fluid block" src="/bar-826688_1920.jpg" alt="">
-                </div> -->
             </div>
         </div>
     </section>
@@ -442,7 +429,7 @@
                         <div class="col-lg-6">
                             <div class="bg-dark p-5 mt-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Lihle (1)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
+                                    <img src="/images/Lihle (1)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Lihle Goliath</p>
                                         <p class="text-muted">From Life Choices Academy</p>
@@ -463,7 +450,7 @@
                         <div class="col-lg-6">
                             <div class="bg-dark p-5 my-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Leandre (5)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
+                                    <img src="/images/Leandre (5)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Le-Andre Moritz</p>
                                         <p class="text-muted">From Life Choices Academy</p>
@@ -489,7 +476,7 @@
                         <div class="col-lg-6">
                             <div class="bg-dark p-5 mt-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Raaid (3)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
+                                    <img src="/images/Raaid (3)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Raaid Abdullatief</p>
                                         <p class="text-muted">From Life Choices Academy</p>
@@ -511,7 +498,7 @@
                         <div class="col-lg-6">
                             <div class="bg-dark p-5 my-5">
                                 <div class="details d-flex flex-row">
-                                    <img src="/Siyolise (4)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
+                                    <img src="/images/Siyolise (4)-min.JPG" class="img-fluid rounded-circle" alt="..." style="width: 150px; height: 150px; object-fit: cover;">
                                     <div class="info d-flex flex-column ms-3">
                                         <p class="text-white">Siyolise Mekuto</p>
                                         <p class="text-muted">From Life Choices Academy</p>
@@ -582,20 +569,23 @@
                 </div>
                 <div class="col-lg-8">
                     <h4 class="text-white my-4">SEND US A NOTE</h4>
-                    <div class="row mt-4">
-                        <div class="col-lg-6 my-3 shadow">
-                           <input type="text" name="name" class="form-control bg-dark" id="name" placeholder="Name" style="height: 50px;"> 
+                    <form target="_blank" action="https://formspree.io/f/xqknwllo" method="POST">
+                        <div class="row mt-4">
+                            <div class="col-lg-6 my-3 shadow">
+                               <input required type="text" name="name" class="form-control bg-dark text-white" id="name" placeholder="Name" style="height: 50px;"> 
+                            </div>
+                            <div class="col-lg-6 my-3 shadow">
+                                <input required type="email" name="email" class="form-control bg-dark text-white" id="email" placeholder="Email" style="height: 50px;">
+                            </div>
+                            <div class="mt-4 shadow">
+                                <textarea id="message" class="form-control bg-dark text-white" placeholder="Tell us more about your needs...." style="height: 200px;"></textarea>
+                            </div>
+                            <div class="my-4 text-center">
+                                <button type="submit" class="btn btn-lg btn-danger btn-outline-secondary rounded-pill">Send message</button>
+                            </div>
                         </div>
-                        <div class="col-lg-6 my-3 shadow">
-                            <input type="email" name="email" class="form-control bg-dark" id="email" placeholder="Email" style="height: 50px;">
-                        </div>
-                        <div class="mt-4 shadow">
-                            <textarea id="message" class="form-control bg-dark" placeholder="Tell us more about your needs...." style="height: 200px;"></textarea>
-                        </div>
-                        <div class="my-4 text-center">
-                            <button type="submit" class="btn btn-lg btn-danger rounded-pill">Send message</button>
-                        </div>
-                    </div>
+                    </form>
+                   
                 </div>
             </div>
         </div>
