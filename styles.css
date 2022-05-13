@@ -63,6 +63,10 @@ li.nav-link a:hover {
     background-color: red;
 }
 
+.icons i:hover{
+    background-color: red;
+}
+
 h1 {
     font-family: Poppins, sans-serif;
     font-size: 40px;
